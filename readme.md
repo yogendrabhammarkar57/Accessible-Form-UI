@@ -25,13 +25,13 @@ To get this project running on your local machine, follow the instructions below
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/projectname.git](https://github.com/yogendrabhammarkar57/Accessible-Form-UI)
+git clone https://github.com/yogendrabhammarkar57/Accessible-Form-UI
 cd projectname
 ```
 
 ### 2. Install Dependencies
 
-Make sure you have [Tailwind CSS](https://github.com/yogendrabhammarkar57/Accessible-Form-UI) and other required libraries installed if needed.
+Make sure you have [Tailwind CSS](https://tailwindcss.com/docs/installation) and other required libraries installed if needed.
 
 ```bash
 npm install tailwindcss

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Outfit:wght@100..900&family=Sen:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/477bfa2aa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="flex justify-center items-center h-screen bg-gray-100">
+        <div class="border-gray-700 border rounded-2xl flex overflow-hidden">
+            <div class="w-[500px] flex flex-col items-center p-10 gap-4">
+                <h1 class="text-xl font-semibold">Full Name</h1>
+                <input type="text" placeholder="What should we call you?" class="w-96 border-none p-3 rounded-lg text-lg">
+                <h1 class="text-xl font-semibold">Email</h1>
+                <input type="email" placeholder="john@doe.com" class="w-96 border-none p-3 rounded-lg text-lg">
+                <h1 class="text-xl font-semibold">Enter Password</h1>
+                <input type="password" placeholder="xxxxxxxx" class="w-96 border-none p-3 rounded-lg text-lg">
+                <h1 class="text-xl font-semibold">Confirm Password</h1>
+                <input type="password" placeholder="xxxxxxxx" class="w-96 border-none p-3 rounded-lg text-lg">
+                <button class="h-12 bg-black px-8 py-3 text-gray-100 mt-6 rounded-lg text-lg">Update Profile</button>
+            </div>
+            <div class="bg-blue-100 w-64 flex flex-col items-center p-10 gap-4">
+                <div class="relative w-40 h-40 flex items-center justify-center">
+                    <div class="w-40 h-40 border-2 border-gray-300 rounded-full bg-transparent"></div>
+                    <div class="absolute top-0 left-0 w-40 h-40 border-4 border-black rounded-full bg-transparent clip-half"></div>
+                    <span class="absolute text-black font-semibold text-4xl">65%</span>
+                </div>
+                <div class="mt-6 mb-5">
+                    <span class="text-black font-semibold text-[16px]">Profile Completeness</span>
+                </div>
+                <div class="border-gray-500 bg-gray-100 border rounded-2xl h-56 w-48 flex flex-col items-center justify-center gap-4 text-sm">
+                    <span class="text-gray-400 line-through">Create Account</span>
+                    <span class="text-gray-400 line-through">Update RoadMap Progress</span>
+                    <span class="text-gray-400 line-through">Setup Public Profile</span>
+                    <span>Complete Your First Project</span>
+                    <span>Invite Your Friends</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

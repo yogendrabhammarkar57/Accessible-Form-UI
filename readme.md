@@ -31,10 +31,10 @@ cd projectname
 
 ### 2. Install Dependencies
 
-Make sure you have [Tailwind CSS](https://tailwindcss.com/docs/installation) and other required libraries installed if needed.
+Make sure you have [Tailwind CSS](https://github.com/yogendrabhammarkar57/Accessible-Form-UI) and other required libraries installed if needed.
 
 ```bash
-npm install
+npm install tailwindcss
 ```
 
 ### 3. Open the Project

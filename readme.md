@@ -25,7 +25,7 @@ To get this project running on your local machine, follow the instructions below
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/projectname.git
+git clone [https://github.com/yourusername/projectname.git](https://github.com/yogendrabhammarkar57/Accessible-Form-UI)
 cd projectname
 ```
 
